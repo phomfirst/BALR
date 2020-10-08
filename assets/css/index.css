@@ -1,0 +1,46 @@
+/* || Typography */
+.announcement-bar > a {
+	font-family: futura-pt, sans-serif;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* || Header */
+.announcement-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 0.5em 1.5em;
+	background-color: #000;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 1.3em;
+	height: 60px;
+}
+
+.menu-btn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 84px;
+}
+
+.nav-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 84px;
+}
+
+.icon {
+	height: 2.5em;
+}
