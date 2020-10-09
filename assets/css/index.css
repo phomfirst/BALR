@@ -165,7 +165,9 @@ nav {
 	transform: translateY(0);
 }
 
-/* || Main Content /* 
+/* || Main Content */
+main {
+}
 
 /* || Hero Section */
 .hero-section {
@@ -215,7 +217,6 @@ nav {
 }
 
 .collection-item {
-	/* height: 100%; */
 	margin-bottom: 40px;
 }
 
@@ -250,5 +251,21 @@ nav {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto;
 		gap: 0.5em;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	/* || Collection Section */
+	.collection-section {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	.collection-grid {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+
+		height: 100%;
 	}
 }
