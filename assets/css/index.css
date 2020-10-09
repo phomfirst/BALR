@@ -101,6 +101,10 @@ nav {
 	cursor: pointer;
 }
 
+.navbar-logo svg {
+	width: 62px;
+}
+
 .balr-logo {
 	color: #000;
 }
@@ -230,6 +234,11 @@ main {
 }
 
 @media screen and (min-width: 600px) {
+	/* || Header */
+	.navbar-logo svg {
+		width: 100px;
+	}
+
 	/* || Hero Section */
 	.hero-section {
 		background-image: url('../images/hero-image-home-2.jpg');
@@ -257,7 +266,7 @@ main {
 @media screen and (min-width: 1000px) {
 	/* || Collection Section */
 	.collection-section {
-		max-width: 1000px;
+		max-width: 1170px;
 		margin: 0 auto;
 	}
 
