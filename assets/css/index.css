@@ -353,7 +353,7 @@ nav {
 
 
 
-/* Promo Video Section */
+/* || Promo Video Section */
 .promo-vid-section {
 	display: flex;
 	width: 100%;
@@ -361,9 +361,46 @@ nav {
 
 .promo-vid-section video {
 	width: 100%;
+	margin-bottom: 160px;
+}
+
+
+
+
+/* || Store Finder Section */
+.store-finder-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: 50vh;
 }
 
+.store-finder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	max-width: 65vw;
+}
+
+.store-finder-section img {
+	width: 100%;
+}
+
+.finder-btn {
+	width: 100%;
+	padding: 16px 0;
+	text-align: center;
+	background-color: #161615;
+	font-family: futura-pt, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 50px;
+}
 
 
 
@@ -453,5 +490,19 @@ nav {
 		min-height: 900px;
 		width: 100%;
 		position: relative;
+	}
+
+	.finder-btn {
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+		background-color: #161615;
+		font-family: futura-pt, sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		font-style: normal;
+		color: #fff;
+		text-decoration: none;
+		margin-top: 100px;
 	}
 }
