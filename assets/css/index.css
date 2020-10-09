@@ -173,6 +173,9 @@ nav {
 main {
 }
 
+
+
+
 /* || Hero Section */
 .hero-section {
 	background-image: url('../images/hero-image-home.jpg');
@@ -201,6 +204,9 @@ main {
 .hero-content > h1 {
 	margin: 20px 0;
 }
+
+
+
 
 /* || Collection Section */
 .collection-section {
@@ -237,7 +243,11 @@ main {
 	padding-right: 30px;
 }
 
+
+
+
 @media screen and (min-width: 600px) {
+
 	/* || Header */
 	nav {
 		height: 80px;
@@ -261,6 +271,9 @@ main {
 		margin: 0 auto;
 	}
 
+
+
+
 	/* || Hero Section */
 	.hero-section {
 		background-image: url('../images/hero-image-home-2.jpg');
@@ -277,6 +290,9 @@ main {
 		line-height: 0.8em;
 	}
 
+
+
+
 	/* || Collection Section */
 	.collection-grid {
 		display: grid;
@@ -286,7 +302,11 @@ main {
 	}
 }
 
+
+
+
 @media screen and (min-width: 1000px) {
+	
 	/* || Collection Section */
 	.collection-section {
 		max-width: 1170px;
