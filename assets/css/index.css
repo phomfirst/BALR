@@ -30,6 +30,17 @@ h2 {
 	text-decoration: none;
 }
 
+.hero-content > p {
+	font-family: futura-pt-bold, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
 .hero-content > a {
 	font-family: futura-pt-bold, sans-serif;
 	font-weight: 700;
@@ -131,7 +142,14 @@ nav {
 }
 
 .navbar-logo > a {
-	color: #000;
+	color: #fff;
+}
+
+.hamburger-menu-icon,
+.nav-balr-logo,
+.search-icon,
+.cart-icon {
+	fill: #fff;
 }
 
 
@@ -207,7 +225,7 @@ nav {
 
 /* || Hero Section */
 .hero-section {
-	background-image: url('../images/hero-image-home.jpg');
+	background-image: url('../images/hero-image-home-4.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -357,13 +375,6 @@ nav {
 		margin: 0 auto;
 	}
 
-	.hamburger-menu-icon,
-	.nav-balr-logo,
-	.search-icon,
-	.cart-icon {
-		fill: #fff;
-	}
-
 	.navbar-logo svg {
 		width: 100px;
 	}
@@ -378,7 +389,7 @@ nav {
 
 	/* || Hero Section */
 	.hero-section {
-		background-image: url('../images/hero-image-home-2.jpg');
+		background-image: url('../images/hero-image-home-3.jpg');
 		margin-top: -80px;
 	}
 
