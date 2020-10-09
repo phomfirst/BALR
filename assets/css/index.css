@@ -36,6 +36,14 @@ h1 {
 	text-decoration: none;
 }
 
+.section-title {
+	font-family: futura-pt, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+}
+
 /* || Header */
 .announcement-bar {
 	display: flex;
@@ -80,7 +88,7 @@ nav {
 
 /* || Nav Drawer */
 .nav-drawer {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 
@@ -138,7 +146,9 @@ nav {
 	transform: translateY(0);
 }
 
-/* || Main Content */ /* || Hero Section*/
+/* || Main Content /* 
+
+/* || Hero Section */
 .hero-section {
 	background-image: url('../images/hero-image-home.jpg');
 	background-repeat: no-repeat;
@@ -165,6 +175,13 @@ nav {
 
 .hero-content > h1 {
 	margin: 20px 0;
+}
+
+/* || Carousel Slider Section */
+.carousel-slider {
+	padding: 40px 24px;
+	height: 100%;
+	width: 100%;
 }
 
 @media screen and (min-width: 600px) {
