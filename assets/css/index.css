@@ -166,3 +166,20 @@ nav {
 .hero-content > h1 {
 	margin: 20px 0;
 }
+
+@media screen and (min-width: 600px) {
+	/* || Hero Section */
+	.hero-section {
+		background-image: url('../images/hero-image-home-2.jpg');
+	}
+
+	h1 {
+		font-family: futura-pt-bold, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 4em;
+		color: #fff;
+		text-align: center;
+		line-height: 0.8em;
+	}
+}
