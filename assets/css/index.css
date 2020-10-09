@@ -336,6 +336,9 @@ nav {
 	left: 0;
 }
 
+
+
+
 /* || Promo Video Section */
 .promo-vid-section {
 	display: flex;
@@ -346,6 +349,17 @@ nav {
 	width: 100%;
 	margin-bottom: 160px;
 }
+
+#promo-vid-horizontal {
+	display: none;
+}
+
+#promo-vid-vertical {
+	display: block;
+}
+
+
+
 
 /* || Store Finder Section */
 .store-finder-section {
@@ -370,7 +384,7 @@ nav {
 
 .finder-btn {
 	width: 100%;
-	padding: 16px 0;
+	padding: 17px 0;
 	text-align: center;
 	background-color: #161615;
 	font-family: futura-pt, sans-serif;
@@ -415,36 +429,43 @@ nav {
 		line-height: 0.8em;
 	}
 
-	/* || Collection Section */
-	/* .collection-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: auto;
-		gap: 0.5em;
-	} */
-
 	/* || Categories Section */
 	.categories-section {
 		display: flex;
 		flex-direction: row;
 	}
+
+	.store-finder {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	
+		max-width: 360px;
+	}
+
+
+
+
+	/* || Promo Video */
+	#promo-vid-vertical {
+		display: none;
+	}
+
+	#promo-vid-horizontal {
+		display: block;
+	}
 }
 
 @media screen and (min-width: 1000px) {
 	/* || Collection Section */
-	.collection-section {
-		max-width: 1170px;
-		margin: 0 auto;
+	.collection-item {
+		min-width: 18vw;
 	}
-
-	.collection-grid {
-		display: flex;
-		justify-content: center;
-		align-items: stretch;
-
-		height: 100%;
-	}
-
+	
+	
+	
+	
 	.category-item {
 		display: flex;
 		justify-content: center;
