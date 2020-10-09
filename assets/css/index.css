@@ -256,14 +256,16 @@ nav {
 }
 
 .collection-grid {
-	width: calc(100vw - 48px);
 	display: flex;
+
+	width: calc(100vw - 48px);
 	overflow-x: scroll;
 }
 
 .collection-item {
 	margin-bottom: 40px;
-	width: 40vh;
+	min-width: 35vw;
+	margin-right: 0.5em;
 }
 
 .collection-item > img {
@@ -414,12 +416,12 @@ nav {
 	}
 
 	/* || Collection Section */
-	.collection-grid {
+	/* .collection-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto;
 		gap: 0.5em;
-	}
+	} */
 
 	/* || Categories Section */
 	.categories-section {
