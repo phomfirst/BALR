@@ -405,12 +405,18 @@ nav {
 
 /* || Footer */
 footer {
-	padding: 40px 0;
-	height: 100%;
 	background-color: #161615;
 }
 
-footer > section {
+.footer-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	padding: 40px 0;
+	height: 100%;
+}
+
+footer section {
 	padding: 0 24px;
 	margin-bottom: 20px;
 }
@@ -420,7 +426,7 @@ footer svg {
 	width: auto;
 }
 
-footer .balr-logo-footer {
+footer .balr-logo-footer-header {
 	fill: #fff;
 }
 
@@ -456,12 +462,17 @@ footer h3 {
 	text-decoration: none;
 }
 
-footer section:nth-child(3) a {
+footer section:nth-child(1) {
+	display: none;
+}
+
+footer section:nth-child(4) a {
 	display: block;
 	padding: 12px 15px;
 	margin-bottom: 20px;
 	border: 1px solid;
 	text-align: center;
+	width: 100%;
 
 	font-family: futura-pt-bold, sans-serif;
 	font-weight: 700;
@@ -554,7 +565,52 @@ footer section:nth-child(3) a {
 	#promo-vid-horizontal {
 		display: block;
 	}
+
+
+
+
+	/* || Footer */
+	.footer-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer li {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	footer section {
+		width: 200px;
+	}
+
+	footer section:nth-child(1) {
+		display: block;
+	}
+
+	footer section:nth-child(4) {
+		margin-left: auto;
+	}
+
+	footer .balr-logo-footer-big {
+		height: auto;
+		width: 100px;
+	}
+	
+	footer .balr-logo-footer {
+		fill: #fff;
+	}
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1000px) {
 	/* || Collection Section */
@@ -588,5 +644,12 @@ footer section:nth-child(3) a {
 		color: #fff;
 		text-decoration: none;
 		margin-top: 100px;
+	}
+
+	/* || Footer */
+	.footer-wrapper {
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
