@@ -242,9 +242,12 @@ nav {
 
 /* || Collection Section */
 .collection-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center     ;
+
 	padding: 40px 24px;
 	height: 100%;
-	width: 100%;
 }
 
 .balr-logo {
@@ -260,6 +263,7 @@ nav {
 
 	width: calc(100vw - 48px);
 	overflow-x: scroll;
+	max-width: 1170px;
 }
 
 .collection-item {
@@ -366,7 +370,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 50vh;
+	margin-bottom: 80px;
 }
 
 .store-finder {
@@ -395,6 +399,79 @@ nav {
 	text-decoration: none;
 	margin-top: 50px;
 }
+
+
+
+
+/* || Footer */
+footer {
+	padding: 40px 0;
+	height: 100%;
+	background-color: #161615;
+}
+
+footer > section {
+	padding: 0 24px;
+	margin-bottom: 20px;
+}
+
+footer svg {
+	height: 13px;
+	width: auto;
+}
+
+footer .balr-logo-footer {
+	fill: #fff;
+}
+
+footer ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+footer li {
+	width: 50%;
+	max-width: 50%;
+}
+
+footer a {
+	display: block;
+
+	font-family: futura-pt, sans-serif;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 0;
+}
+
+footer h3 {
+	font-family: futura-pt-bold, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18.72px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 600px) {
 	/* || Header */
@@ -429,6 +506,13 @@ nav {
 		line-height: 0.8em;
 	}
 
+
+	/* || Collection Section */
+	.collection-item {
+		min-width: 25vw;
+	}
+
+
 	/* || Categories Section */
 	.categories-section {
 		display: flex;
@@ -460,7 +544,7 @@ nav {
 @media screen and (min-width: 1000px) {
 	/* || Collection Section */
 	.collection-item {
-		min-width: 18vw;
+		min-width: 13vw;
 	}
 	
 	
