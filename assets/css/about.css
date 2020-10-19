@@ -33,6 +33,23 @@ h2 {
 	margin-bottom: 15px;
 }
 
+.text-section h3 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -232,4 +249,22 @@ nav {
 
 .hero-content > h1 {
 	margin: 20px 0;
+}
+
+
+
+
+/* — Text Section — */
+.text-section {
+    background-color: #151516;
+}
+
+.text-section span {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 24px 150px 24px;
+}
+
+.text-section span h3 {
+    margin: 21px 0;
 }
