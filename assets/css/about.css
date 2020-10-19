@@ -116,7 +116,8 @@ nav {
 	width: 100%;
 	padding: 0 24px;
 	box-sizing: border-box;
-	background-color: #161615;
+    background-color: #161615;
+    z-index: 1000;
 
 	transform: translateY(-200vh);
 	transition-duration: 0.5s;
