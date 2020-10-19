@@ -577,6 +577,10 @@ footer a {
 	padding: 0.5rem 0;
 }
 
+footer a:hover {
+	text-decoration: underline;
+}
+
 footer h3 {
 	font-family: futura-pt-bold, sans-serif;
 	font-weight: 700;
