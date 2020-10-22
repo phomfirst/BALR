@@ -13,7 +13,7 @@
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Over het algemeen ging mijn project best goed. De meeste dingen die ik weilde maakten lukte. Er waren af en toe technische functies waar ik hulp moest zoeken of vragen. Ik ben blij met mijn eindresultaat. Wat ik de volgende keer beter wil doen is het sorteren van code en content. Ook wil betere namen geven voor classes, id's.
 
 **Screenshot(s):**
 #### Home pagina versie
