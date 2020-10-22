@@ -7,6 +7,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://tremont-demo.squarespace.com/
+2. https://www.balr.com/
+3. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
+4. https://www.w3schools.com/
+5. https://developer.mozilla.org/en-US/
 
 
 
