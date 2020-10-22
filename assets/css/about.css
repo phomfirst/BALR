@@ -292,3 +292,39 @@ nav {
         margin-bottom: 42px;
     }
 }
+
+/* — Collage Section — */
+.collage-section {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.collage-image {
+	display: flex;
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+
+.collage-section img:nth-child(1) {
+	position: absolute;
+	top: 50%;
+	right: 9.33333%;
+	height: 75%;
+	width: 50%;
+	transform: translateY(-50%);
+
+	object-fit: cover;
+}
+
+.collage-section img:nth-child(2) {
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	height: 65%;
+	width: 56.66667%;
+	transform: translateY(-50%);
+
+	object-fit: cover;
+}
