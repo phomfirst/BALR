@@ -19,7 +19,6 @@ GoTop = document.querySelector(".go-top");
 
 var myScrollFunc = function() {
   var y = window.scrollY;
-  console.log(y)
   if (y >= 2000) {
 	GoTop.classList.add("show");
   } else {
