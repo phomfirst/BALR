@@ -296,15 +296,28 @@ nav {
 /* — Collage Section — */
 .collage-section {
 	display: flex;
+	flex-direction: column;
 	height: 100%;
 	width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.collage-section {
+		flex-direction: row;
+	}
 }
 
 .collage-image {
 	display: flex;
 	position: relative;
-	height: 400px;
+	height: 300px;
 	width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.collage-image {
+		flex: 1;
+	}
 }
 
 .collage-section img:nth-child(1) {
@@ -327,4 +340,27 @@ nav {
 	transform: translateY(-50%);
 
 	object-fit: cover;
+}
+
+.collage-text {
+	display: flex;
+	margin: 0 24px;
+}
+
+@media screen and (min-width: 600px) {
+	.collage-text {
+		flex: 1;
+	}
+}
+
+.collage-text h3 {
+	display: flex;
+	align-items: center;
+
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 21px;
+	color: #000;
+	text-transform: uppercase;
 }
