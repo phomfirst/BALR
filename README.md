@@ -19,8 +19,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
+#### Desktop versie
+![Desktop versie](assets/GitHub/screenshot-1.png)
 
 
 
