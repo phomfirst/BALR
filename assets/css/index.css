@@ -658,3 +658,27 @@ footer section:nth-child(4) a {
 		margin-left: auto;
 	}
 }
+
+
+/* Go to Top Button */
+.go-top {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
+
+.go-top.show {
+	display: block;
+}
+
+.go-top a {
+	background: linear-gradient(to right, #ed213a, #93291e);
+	color: #fff;
+	padding: 12px 15px;
+
+	font-family: futura-pt, sans-serif;
+    font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+}

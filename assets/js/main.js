@@ -14,6 +14,21 @@ menuBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
 
 
+// Scroll to top
+GoTop = document.querySelector(".go-top");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  console.log(y)
+  if (y >= 2000) {
+	GoTop.classList.add("show");
+  } else {
+	GoTop.classList.remove("show");
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
+
 
 
 // Promo Video
@@ -23,3 +38,5 @@ let mediaQuery = window.matchMedia( "(min-width: 600px)" );
 if (mediaQuery.matches) {
 	videoTall.src = '../assets/videos/promo-vid-wide.mp4';
 } 
+
+
