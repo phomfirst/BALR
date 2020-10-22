@@ -20,7 +20,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 #### Desktop versie
-![Desktop versie](assets/GitHub/screenshot-1.png)
+![Mobile versie](assets/GitHub/screenshot-1.png)
 
 
 
