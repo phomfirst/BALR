@@ -8,6 +8,7 @@
 3. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
 4. https://www.w3schools.com/
 5. https://developer.mozilla.org/en-US/
+5. https://github.com/phomfirst/vak_frontend-development
 
 
 
