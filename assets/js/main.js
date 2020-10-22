@@ -17,16 +17,15 @@ closeBtn.addEventListener('click', closeMenu);
 // Scroll to top
 GoTop = document.querySelector(".go-top");
 
-var myScrollFunc = function() {
-  var y = window.scrollY;
-  if (y >= 2000) {
+var GoToTop = function() {
+  if (window.scrollY >= 2000) {
 	GoTop.classList.add("show");
   } else {
 	GoTop.classList.remove("show");
   }
 };
 
-window.addEventListener("scroll", myScrollFunc);
+window.addEventListener("scroll", GoToTop);
 
 
 
